@@ -11,7 +11,7 @@ What can you do inside the functions `getContacts` and `getAttachments`?
 
 You have 3 options:
 
-1. a function that returns a promise
+1.  a function that returns a promise
 ```js
 function getContacts(result) {
   return new Promise(function(resolve, reject) {
@@ -22,14 +22,14 @@ function getContacts(result) {
 }
 ```
 
-1. a function that returns a single value
+1.  a function that returns a single value
 ```js
 function getContacts(result) {
   return result + ' I am doing something sync.';
 }
 ```
 
-1. a function that throws a value
+1.  a function that throws a value
 ```js
 function getContacts(result) {
   throw new Error('user logged out!');
