@@ -22,14 +22,14 @@ function getContacts(result) {
 }
 ```
 
-2. a function that returns a single value
+1. a function that returns a single value
 ```js
 function getContacts(result) {
   return result + ' I am doing something sync.';
 }
 ```
 
-3. a function that throws a value
+1. a function that throws a value
 ```js
 function getContacts(result) {
   throw new Error('user logged out!');
