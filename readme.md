@@ -31,7 +31,7 @@ function getContacts(result) {
 }
 ```
 
-3)  a function that throws a value
+3)  a function that throws
 
 ```js
 function getContacts(result) {
